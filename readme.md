@@ -28,17 +28,17 @@
 
 数据域划分
 
-![image-20260615190054185](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\image-20260615190054185.png)
+![image-20260615190054185](F:\BigdataProj\newsdatawarehouse\image-20260615190054185.png)
 
 总线矩阵
 
-![image-20260615190350278](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\image-20260615190350278.png)
+![image-20260615190350278](F:\BigdataProj\newsdatawarehouse\image-20260615190350278.png)
 
 
 
 ## 二、数据仓库架构
 
-![image-20260616110009896](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\image-20260616110009896.png)
+![image-20260616110009896](F:\BigdataProj\newsdatawarehouse\image-20260616110009896.png)
 
 
 
