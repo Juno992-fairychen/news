@@ -1,6 +1,6 @@
-use  news;
-drop table if exists dwd_base_event_log_inc;
-CREATE EXTERNAL TABLE dwd_base_event_log_inc (
+DROP TABLE IF EXISTS dwd_interaction_like_inc;
+
+CREATE EXTERNAL TABLE dwd_interaction_like_inc (
     mid STRING,
     uid INT,
     vc STRING,
@@ -16,11 +16,13 @@ CREATE EXTERNAL TABLE dwd_base_event_log_inc (
     network STRING,
     lon STRING,
     lat STRING,
-    event_name STRING,
-    event_json STRING,
+    user_id STRING,
+    news_id STRING,
+    add_time STRING,
+    stay_time STRING,
     event_time STRING
 )
 PARTITIONED BY (dt STRING)
 STORED AS ORC
-LOCATION '/user/hive/warehouse/news.db/dwd/dwd_base_event_log_inc'
+LOCATION '/user/hive/warehouse/news.db/dwd/dwd_interaction_like_inc'
 TBLPROPERTIES ("orc.compress"="SNAPPY");
